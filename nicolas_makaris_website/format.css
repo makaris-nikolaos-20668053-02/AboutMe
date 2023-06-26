@@ -1,0 +1,80 @@
+@import url("reset.css");
+/*flex layout - start*/
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
+
+#container, header, footer {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+aside {
+	width: 20%;
+	float: left;
+}
+
+article {
+	width: 80%;
+	float: right;	
+}
+
+/*flex layout - end*/
+
+body {
+	background-color: #73777B;
+}
+
+#container {
+		background-color: #3C4048;	
+}
+
+header {
+	color: white;
+	background-color: #181818;
+	text-align: center;	
+	padding: 5px 10px 5px 10px;
+}
+
+aside {
+	padding: 5px 10px 5px 10px;
+	
+}
+
+article {
+	background-color: #B2B2B2;	
+	padding: 5px 10px 5px 10px;
+	border: 1px white inset;
+}
+
+footer {
+	background-color: #181818;
+	text-align: center;
+	padding: 5px 10px 5px 10px;
+	clear: both; 
+}
+
+.top-margin {
+	margin-top: 2%;
+}
+
+a:link {
+	text-decoration: none;
+  }
+  
+  a:visited {
+	text-decoration: none;
+  }
+  
+  a:hover {
+	text-decoration: underline;
+  }
+  
+  a:active {
+	text-decoration: underline;
+  }
